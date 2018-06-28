@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginNotepadTest", "PluginNotepadTest\PluginNotepadTest.csproj", "{610C3DAF-F61E-478F-BBAA-37D1DC6AE60E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPlugins", "..\TestPlugins\TestPlugins\TestPlugins.csproj", "{31B0C876-A819-4AE2-AEA3-5CB4544E988C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCountPlugin", "WordCountPlugin\WordCountPlugin.csproj", "{B15E97FF-CEF4-435A-ABC4-A858C9316CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeFontPlugin", "ChangeFontPlugin\ChangeFontPlugin.csproj", "{CC40E797-15C1-477A-A496-17A962D7DF03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversePlugin", "ReversePlugin\ReversePlugin.csproj", "{28A18B33-1C77-4051-992A-4A235EF134F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPlugin", "FindPlugin\FindPlugin.csproj", "{FD72480A-83B9-45A9-B46B-7A77C317F174}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{610C3DAF-F61E-478F-BBAA-37D1DC6AE60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610C3DAF-F61E-478F-BBAA-37D1DC6AE60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610C3DAF-F61E-478F-BBAA-37D1DC6AE60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610C3DAF-F61E-478F-BBAA-37D1DC6AE60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31B0C876-A819-4AE2-AEA3-5CB4544E988C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31B0C876-A819-4AE2-AEA3-5CB4544E988C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31B0C876-A819-4AE2-AEA3-5CB4544E988C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31B0C876-A819-4AE2-AEA3-5CB4544E988C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B15E97FF-CEF4-435A-ABC4-A858C9316CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B15E97FF-CEF4-435A-ABC4-A858C9316CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B15E97FF-CEF4-435A-ABC4-A858C9316CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B15E97FF-CEF4-435A-ABC4-A858C9316CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC40E797-15C1-477A-A496-17A962D7DF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC40E797-15C1-477A-A496-17A962D7DF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC40E797-15C1-477A-A496-17A962D7DF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC40E797-15C1-477A-A496-17A962D7DF03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A18B33-1C77-4051-992A-4A235EF134F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A18B33-1C77-4051-992A-4A235EF134F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A18B33-1C77-4051-992A-4A235EF134F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A18B33-1C77-4051-992A-4A235EF134F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD72480A-83B9-45A9-B46B-7A77C317F174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD72480A-83B9-45A9-B46B-7A77C317F174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD72480A-83B9-45A9-B46B-7A77C317F174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD72480A-83B9-45A9-B46B-7A77C317F174}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D340B384-B5C6-43CD-AEF4-8B46570E84BD}
+	EndGlobalSection
+EndGlobal
